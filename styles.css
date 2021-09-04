@@ -16,11 +16,11 @@ body{
     text-align: center;
 }  
 .progress-container{
-    width: 35vw;
+    width: 38vw;
     height: 25vh;
     margin: 20px;
     padding: 5px;
-    border: 1px solid blueviolet;
+    border: 0.1px solid blue;
     align-content: center;
     align-items: center;
 
@@ -28,13 +28,9 @@ body{
 }
 .progress{
     padding: 2px;
-    width: 30vw;
-    height: 18vh;
-    background-color: purple;
-    margin: auto;
-    height: 20vh;
-    margin-left: 20px;
-    border: 1px solid blue;
+    width: 99%;
+    height: 24vh;
+    background-color: skyblue;
     align-self: center;
     justify-content: center;
     align-content: center;

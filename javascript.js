@@ -67,7 +67,7 @@ function setProgress(e){
     const duration =audio.duration;
     const ClickSpot = e.offsetX;
 
-    audio.currentTime=(ClickSpot/width)*duration
+    audio.currentTime=(ClickSpot/(width))*duration
 }
 
 //All the event listeners
@@ -88,4 +88,6 @@ nextButton.addEventListener("click", nextSong);
 
 audio.addEventListener("timeupdate", ChangeProgress);
 
-progressContainer.addEventListener("click", setProgress)
+progressContainer.addEventListener("click", setProgress);
+
+audio.addEventListener("ended",nextSong)
