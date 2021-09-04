@@ -20,20 +20,25 @@ body{
     height: 25vh;
     margin: 20px;
     padding: 5px;
-   
+    border: 1px solid blueviolet;
     align-content: center;
-    
+    align-items: center;
+
 
 }
 .progress{
     padding: 2px;
-    margin: 2px;
+    width: 30vw;
+    height: 18vh;
+    background-color: purple;
+    margin: auto;
     height: 20vh;
     margin-left: 20px;
     border: 1px solid blue;
     align-self: center;
     justify-content: center;
     align-content: center;
+    transition: width 0.1s linear;
 }
 .navigation{
     align-items: center;
@@ -44,12 +49,13 @@ body{
 }
 .action-btn{
     border-radius: 10px 10px;
-    border: 0.5px solid rgb(104, 205, 245);
+    border: 0.8px solid rgb(104, 205, 245);
     align-items: center;
     width: 50px;
 }
 .action-btn :hover{
     color: rgb(6, 182, 252);
+    border-color: rgb(6, 182, 252);
 }
 .action-btn>i{
     color: rgb(113, 205, 241);
