@@ -6,6 +6,14 @@ This app is a music player than can play audio file while showing audio visualiz
 
 2)Enter name for clone folder after above url
 
+### Screenshot and Video Demo
+![MP](https://user-images.githubusercontent.com/76869468/132142636-029ff0b5-90f4-4d30-8ac8-f619c28278c9.png)
+
+
+https://user-images.githubusercontent.com/76869468/132142647-834433e9-f367-4e18-b721-7ee36a9a5d36.mp4
+
+
+
 
 
 
