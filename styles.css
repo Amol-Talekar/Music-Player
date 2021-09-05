@@ -17,7 +17,8 @@ body{
     align-items: center;
     text-align: center;
     background-color: white;
-}  
+    
+} 
 .progress-container{
     width: 38vw;
     height: 25vh;

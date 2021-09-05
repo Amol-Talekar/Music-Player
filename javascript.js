@@ -1,3 +1,4 @@
+//chrome.exe --autoplay-policy=no-user-gesture-required
 //Selecting all the querties we need for operations
 const mainContainer=document.querySelector(".main-container")
 const playButton=document.querySelector("#play")
@@ -8,14 +9,7 @@ const title=document.querySelector("#title")
 const progress=document.querySelector(".progress")
 const progressContainer=document.querySelector(".progress-container")
 
-var audioCtx;
-
-function startUserMedia() {
-    if(!audioCtx){
-        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-    } 
-}
-title.addEventListener("click",startUserMedia) 
+const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 const canvasElement = document.getElementById("mainCanvas")
 const canvasCtx = canvasElement.getContext('2d');
 
