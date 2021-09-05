@@ -71,7 +71,7 @@ let songIndex=0;
 function PickSong(song){
     title.innerText=song;
     //document.getElementById("title").innerHTML = title;
-    audio.src=`songs/${song}.mp3`
+    audio.src=`songs/${song}.mp3` `https://raw.githubusercontent.com/Amol-Talekar/Music-Player/master/${song}.mp3`
     
 }
 PickSong(songs[songIndex])
