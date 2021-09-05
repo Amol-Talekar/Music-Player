@@ -11,7 +11,7 @@ const progressContainer=document.querySelector(".progress-container")
 const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 const canvasElement = document.getElementById("mainCanvas")
 const canvasCtx = canvasElement.getContext('2d');
-
+audio.crossOrigin = 'anonymous'
 //const secondCanvas=document.getElementById("firstline")
 //var ctx = secondCanvas.getContext("2d");
 //canvasCtx.moveTo(50, 50);
