@@ -1,4 +1,11 @@
-//chrome.exe --autoplay-policy=no-user-gesture-required
+
+function run(){
+    all()
+}
+
+function all()
+{
+    
 //Selecting all the querties we need for operations
 const mainContainer=document.querySelector(".main-container")
 const playButton=document.querySelector("#play")
@@ -171,3 +178,4 @@ audio.addEventListener("timeupdate", ChangeProgress);
 progressContainer.addEventListener("click", setProgress);
 
 audio.addEventListener("ended",nextSong)
+}
