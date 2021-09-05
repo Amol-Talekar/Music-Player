@@ -8,7 +8,11 @@ const title=document.querySelector("#title")
 const progress=document.querySelector(".progress")
 const progressContainer=document.querySelector(".progress-container")
 
-const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+function touchStarted() {
+  const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+}
+touchStarted()
+
 const canvasElement = document.getElementById("mainCanvas")
 const canvasCtx = canvasElement.getContext('2d');
 audio.crossOrigin = 'anonymous'
