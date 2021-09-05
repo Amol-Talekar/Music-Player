@@ -8,7 +8,14 @@ const title=document.querySelector("#title")
 const progress=document.querySelector(".progress")
 const progressContainer=document.querySelector(".progress-container")
 
-const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+var audioCtx;
+
+function startUserMedia() {
+    if(!audioCtx){
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    } 
+}
+title.addEventListener("click",startUserMedia) 
 const canvasElement = document.getElementById("mainCanvas")
 const canvasCtx = canvasElement.getContext('2d');
 
